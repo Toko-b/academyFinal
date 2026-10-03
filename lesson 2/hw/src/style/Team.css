@@ -1,0 +1,32 @@
+#bg{
+    background-color: #17566d;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 280px;
+    gap: 30px;
+}
+
+#div{
+    background-color: #181a1b;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#div p, h2{
+    color: white;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+#img{
+    height: 175px;
+    width: 165px;
+}
+
+#div:hover h2{
+    color: #1168fc;
+}

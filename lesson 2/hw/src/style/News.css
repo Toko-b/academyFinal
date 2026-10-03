@@ -1,0 +1,19 @@
+#news_div{
+    padding: 0 50px;
+    background-color: #17566d;
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+#news_div img{
+    width: 450px;
+    height: 250px;
+}
+
+#news_div h1{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}

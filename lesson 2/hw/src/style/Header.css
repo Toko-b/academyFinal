@@ -1,0 +1,50 @@
+#main {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px 0 100px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  background-color: #181a1b;
+}
+
+#main img {
+  display: block;
+  height: 50px;
+}
+
+.p-div {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+#main button {
+  background-color: #0f7bb4;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-weight: 400;
+  font-size: medium;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+  border-radius: 5px;
+}
+
+#main button:hover {
+  padding: 15px 35px;
+}
+
+#main button a {
+  color: white;
+}
+
+.anchor {
+  text-decoration: none;
+  margin: 0;
+  color: #3b7fa5;
+}
